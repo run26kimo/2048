@@ -314,39 +314,70 @@ hr {
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
     font-size: 0px;
-    background: url(image/2.jpg), no-repeat;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    background: url(image/2.jpg), no-repeat;}
+    @media screen and (max-width: 520px) {
+      .tile.tile-2 .tile-inner {
+        background-size: 58px 58px; } }
   .tile.tile-4 .tile-inner {
     font-size: 0px;
-    background: url(image/4.jpg), no-repeat;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    background: url(image/4.jpg), no-repeat;}
+    @media screen and (max-width: 520px) {
+      .tile.tile-4 .tile-inner {
+        background-size: 58px 58px; } }
   .tile.tile-8 .tile-inner {
     font-size: 0px;
     background: url(image/8.jpg), no-repeat;}
+    @media screen and (max-width: 520px) {
+      .tile.tile-8 .tile-inner {
+        background-size: 58px 58px; } }
   .tile.tile-16 .tile-inner {
     font-size: 0px;
     background: url(image/16.jpg), no-repeat;}
+    @media screen and (max-width: 520px) {
+      .tile.tile-16 .tile-inner {
+        background-size: 58px 58px; } }
   .tile.tile-32 .tile-inner {
     font-size: 0px;
     background: url(image/32.jpg), no-repeat;}
+    @media screen and (max-width: 520px) {
+      .tile.tile-32 .tile-inner {
+        background-size: 58px 58px; } }
   .tile.tile-64 .tile-inner {
     font-size: 0px;
     background: url(image/64.jpg), no-repeat;}
+    @media screen and (max-width: 520px) {
+      .tile.tile-64 .tile-inner {
+        background-size: 58px 58px; } }
   .tile.tile-128 .tile-inner {
     font-size: 0px;
     background: url(image/128.jpg), no-repeat;}
+    @media screen and (max-width: 520px) {
+      .tile.tile-128 .tile-inner {
+        background-size: 58px 58px; } }
   .tile.tile-256 .tile-inner {
     font-size: 0px;
     background: url(image/256.jpg), no-repeat;}
+    @media screen and (max-width: 520px) {
+      .tile.tile-256 .tile-inner {
+        background-size: 58px 58px; } }
   .tile.tile-512 .tile-inner {
     font-size: 0px;
     background: url(image/512.jpg), no-repeat;}
+    @media screen and (max-width: 520px) {
+      .tile.tile-512 .tile-inner {
+        background-size: 58px 58px; } }
   .tile.tile-1024 .tile-inner {
     font-size: 0px;
     background: url(image/1024.jpg), no-repeat;}
+    @media screen and (max-width: 520px) {
+      .tile.tile-1024 .tile-inner {
+        background-size: 58px 58px; } }
   .tile.tile-2048 .tile-inner {
     font-size: 0px;
     background: url(image/2048.jpg), no-repeat;}
+    @media screen and (max-width: 520px) {
+      .tile.tile-2048 .tile-inner {
+        background-size: 58px 58px; } }
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
     background: #3c3a32;
